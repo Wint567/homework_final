@@ -1,0 +1,17 @@
+@import 'header';
+@import 'main';
+@import 'adaptive';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet');
+
+*{
+    font-family: 'Montserrat', serif;
+    border: none;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+

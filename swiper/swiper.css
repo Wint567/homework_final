@@ -1,0 +1,99 @@
+.man .swiper {
+  border-radius: 12px 12px 12px 12px;
+  width: 100%;
+  height: 298px;
+  max-width: 1600px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: #EDEDF7;
+}
+.man .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex !important;
+  justify-content: start;
+  object-fit: cover;
+  border-radius: 12px 12px 12px 12px;
+}
+.man .swiper__photo {
+  max-height: 298px;
+  max-width: 400px;
+}
+.man .swiper__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 30px;
+}
+.man .swiper__text .swiper__text-link {
+  color: var(--active-regular, #24A3FF);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.man .swiper__text .swiper__text-text {
+  background: var(--gradient-red-text, linear-gradient(118deg, #F0145A 0%, #EF8080 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: start;
+  max-width: 100%;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+.man .swiper__text .swiper__text-name1 {
+  color: var(--grey-text, #B3B3BA);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 6px;
+}
+.man .swiper__text .swiper__text-name2 {
+  color: var(--grey-text, #B3B3BA);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.manSD {
+  display: none;
+}
+
+.manTabletHD {
+  display: none;
+}
+
+.manTabletHD {
+  display: none;
+}
+
+.manTabletSD {
+  display: none;
+}
+
+.manPhone{
+  display: none;
+}
+
+.swiper-pagination {
+  bottom: var(--swiper-pagination-bottom, 20px) !important;
+  position: relative!important;
+}
+
+.swiper-pagination-bullet {
+  width: 16px !important;
+  height: 16px !important;
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 7px) !important;
+}
+
+/*# sourceMappingURL=swiper.css.map */
